@@ -11,6 +11,10 @@
 		1932591A1AD9CE2D004CE207 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193259171AD9CE2D004CE207 /* TwitterKit.framework */; };
 		1932591B1AD9CE2D004CE207 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 193259181AD9CE2D004CE207 /* TwitterKitResources.bundle */; };
 		1932591C1AD9CE2D004CE207 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193259191AD9CE2D004CE207 /* Fabric.framework */; };
+		193593801ADAA58000A77EB9 /* artifact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1935937F1ADAA58000A77EB9 /* artifact.jpg */; };
+		193593821ADAA69500A77EB9 /* yourhere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 193593811ADAA69500A77EB9 /* yourhere.jpg */; };
+		193593841ADAA7B000A77EB9 /* park-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 193593831ADAA7B000A77EB9 /* park-image.jpg */; };
+		193593861ADAA7EB00A77EB9 /* park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 193593851ADAA7EB00A77EB9 /* park.jpg */; };
 		19DB81671AD82D0A007962AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB81661AD82D0A007962AF /* AppDelegate.swift */; };
 		19DB81691AD82D0A007962AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB81681AD82D0A007962AF /* ViewController.swift */; };
 		19DB816C1AD82D0A007962AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DB816A1AD82D0A007962AF /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 		193259171AD9CE2D004CE207 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		193259181AD9CE2D004CE207 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		193259191AD9CE2D004CE207 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		1935937F1ADAA58000A77EB9 /* artifact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artifact.jpg; sourceTree = "<group>"; };
+		193593811ADAA69500A77EB9 /* yourhere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yourhere.jpg; sourceTree = "<group>"; };
+		193593831ADAA7B000A77EB9 /* park-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "park-image.jpg"; sourceTree = "<group>"; };
+		193593851ADAA7EB00A77EB9 /* park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park.jpg; sourceTree = "<group>"; };
 		19DB81611AD82D0A007962AF /* ForOutdoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForOutdoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DB81651AD82D0A007962AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DB81661AD82D0A007962AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +102,10 @@
 			children = (
 				19DB81661AD82D0A007962AF /* AppDelegate.swift */,
 				19DB81681AD82D0A007962AF /* ViewController.swift */,
+				193593831ADAA7B000A77EB9 /* park-image.jpg */,
+				193593851ADAA7EB00A77EB9 /* park.jpg */,
+				1935937F1ADAA58000A77EB9 /* artifact.jpg */,
+				193593811ADAA69500A77EB9 /* yourhere.jpg */,
 				19DB816A1AD82D0A007962AF /* Main.storyboard */,
 				19DB816D1AD82D0A007962AF /* Images.xcassets */,
 				19DB816F1AD82D0B007962AF /* LaunchScreen.xib */,
@@ -214,8 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193593841ADAA7B000A77EB9 /* park-image.jpg in Resources */,
+				193593821ADAA69500A77EB9 /* yourhere.jpg in Resources */,
 				1932591B1AD9CE2D004CE207 /* TwitterKitResources.bundle in Resources */,
+				193593801ADAA58000A77EB9 /* artifact.jpg in Resources */,
 				19DB816C1AD82D0A007962AF /* Main.storyboard in Resources */,
+				193593861ADAA7EB00A77EB9 /* park.jpg in Resources */,
 				19DB81711AD82D0B007962AF /* LaunchScreen.xib in Resources */,
 				19DB816E1AD82D0A007962AF /* Images.xcassets in Resources */,
 			);

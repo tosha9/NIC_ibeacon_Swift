@@ -21,17 +21,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jcd-3U-nzN">
-                                <rect key="frame" x="0.0" y="513" width="600" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="Item" id="L8p-q6-tyO"/>
-                                    <tabBarItem systemItem="favorites" id="ZEK-Z7-gzx"/>
-                                    <tabBarItem title="Item" id="UsK-Mi-pvW"/>
-                                    <tabBarItem systemItem="more" id="SUz-o3-Eo4"/>
-                                    <tabBarItem title="Item" id="YuR-6V-w3b"/>
-                                </items>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rx0-io-nNL">
                                 <rect key="frame" x="54" y="391" width="266" height="185"/>
                                 <string key="text">The mission at Annmarie Garden is to provide a place to commune with nature through the creation and maintenance of public thematic outdoor garden rooms developed by artists and landscape architects.</string>
@@ -39,15 +28,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mTi-ds-zMz">
-                                <rect key="frame" x="54" y="228" width="240" height="128"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Cedar Creek &amp; Belle Grove National Historical Park " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrR-cL-2un">
-                                <rect key="frame" x="54" y="87" width="196" height="107"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Cedar Creek &amp; Belle Grove National Historical Park " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrR-cL-2un">
+                                <rect key="frame" x="54" y="73" width="196" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="artifact.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mTi-ds-zMz">
+                                <rect key="frame" x="54" y="211" width="240" height="162"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -55,10 +44,14 @@
                         <outlet property="beaconLabel" destination="xEU-hZ-BI1" id="OfD-hq-9pa"/>
                         <outlet property="beaconLabel1" destination="xrR-cL-2un" id="4cy-2z-ess"/>
                         <outlet property="beaconLabel2" destination="Rx0-io-nNL" id="uw5-LP-xa9"/>
+                        <outlet property="myImage" destination="mTi-ds-zMz" id="037-d8-DLe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="artifact.jpg" width="600" height="450"/>
+    </resources>
 </document>

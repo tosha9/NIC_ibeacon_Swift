@@ -23,6 +23,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var beaconLabel2: UILabel!
     
+    @IBOutlet weak var myImage: UIImageView!
     // Note: make sure you replace the keys here with your own beacons' Minor Values
     let colors = [
         8677: UIColor(red: 84/255, green: 77/255, blue: 160/255, alpha: 1), // Dark blue
@@ -84,24 +85,49 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             switch closestBeacon.minor.integerValue
             {
                 case 9738:
+                beaconLabel.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
                 beaconLabel.text = "This is example of park check in."
                 
+                beaconLabel1.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
                 beaconLabel1.text = "Welcome to Cedar Creek & Belle Grove National Historical Park "
+               
+
                 
+                myImage.image = UIImage(named: "park.jpg")
+                
+                 beaconLabel2.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
                  beaconLabel2.text = "The mission at Annmarie Garden is to provide a place to commune with nature through the creation and maintenance of public thematic outdoor garden rooms developed by artists and landscape architects."
                 
+               
+
+                
             case 8677:
+                beaconLabel.textColor = UIColor(red: 238/255, green: 238/255, blue: 238/255, alpha: 1)
                 beaconLabel.text = "This is a self guided Tour demo"
+                
+                beaconLabel1.textColor = UIColor(red: 238/255, green: 238/255, blue: 238/255, alpha: 1)
                 beaconLabel1.text = "Following arifact has been 1000 years old"
                 
-                 beaconLabel2.text = "Move on to right to explore more. BTW if you are hungry there are DC Sclices have yummy pizza there."
+                myImage.image = UIImage(named: "artifact.jpg")
+
+                beaconLabel2.textColor = UIColor(red: 238/255, green: 238/255, blue: 238/255, alpha: 1)
+                beaconLabel2.text = "Move on to right to explore more. BTW if you are hungry there are DC Sclices have yummy pizza there."
+                
                 
                 
             case 59272:
+                beaconLabel.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
                 beaconLabel.text = "This is no cellphone zone"
+                
+                beaconLabel1.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
                 beaconLabel1.text = "Good news ibeacon works here!"
                 
-                 beaconLabel2.text = "Keep hiking you are almost there/ Fill up water no station till a mile/Restroom nearby"
+                beaconLabel2.textColor = UIColor(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
+                beaconLabel2.text = "Keep hiking you are almost there/ Fill up water no station till a mile/Restroom nearby"
+                
+                
+                myImage.image = UIImage(named: "yourhere.jpg")
+
                 
             default:
                 beaconLabel.text = "Hey you are not near park"
